@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tomáš Dvořák - Photography</title>
+  <meta name="title" content="Tomáš Dvořák - Photography">
+  <meta name="description" content="Photographer portfolio.">
+  <link rel="shortcut icon" href="logo.png" type="image">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="font/font.css">
+  <link rel="preload" as="image" href="images/loading.svg">
+  <link rel="preload" as="image" href="images/loading-circle.svg">
+</head>
+<body class="active" id="top">
+  <div class="loading" data-loading>
+    <img src="images/loading.svg" width="55" height="55" alt="loading" class="img">
+    <img src="images/loading-circle.svg" width="70" height="70" alt="" class="circle">
+  </div>
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="images/logo.png" width="40" height="40" alt="Tomáš Dvořák">
+      </a>
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <img src="images/menu.svg" width="17" height="17" alt="menu icon">
+      </button>
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="images/nav-logo.png" width="140" height="40" alt="Tomáš" class="img">
+          </a>
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <span class="span one"></span>
+            <span class="span two"></span>
+          </button>
+        </div>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#gallery" class="navbar-link" data-nav-link>Gallery</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link>Contact me</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+  <main>
+    <article>
+      <section class="section hero" id="home" aria-label="home">
+        <div class="container">
+          <img src="images/hero-banner.png" width="322" height="322" alt="Tomáš Dvořák logo" class="hero-banner">
+          <div class="hero-content">
+            <h1 class="h1 hero-title">Tomáš Dvořák</h1>
+            <div class="wrapper h2">
+              <strong class="strong" data-letter-effect>Photographer</strong>
+              <strong class="strong" data-letter-effect>Video Editor</strong>
+              <strong class="strong" data-letter-effect>2D Designer</strong>
+              <strong class="strong" data-letter-effect>Freelancer</strong>
+              <strong class="strong" data-letter-effect>Programmer</strong>
+              <strong class="strong" data-letter-effect>Ethical Hacker</strong>
+              <strong class="strong" data-letter-effect>Pentester</strong>
+              <strong class="strong" data-letter-effect>Web Developer</strong>
+            </div>
+            <p class="hero-text">7+ years of experience in IT sector</p>
+          </div>
+        </div>
+        <img src="images/hero-shape.svg" width="211" height="189" alt="" class="shape">
+      </section>
+      <section class="section gallery" id="gallery">
+        <div class="container">
+          <ul class="gallery-list">
+            <li class="gallery-item" data-reveal>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder has-before" style="--width: 4000; --height: 6000;">
+                  <img src="images/flowers.jpg" width="4000" height="6000" loading="lazy" alt="Flowers"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="Flowers.html" class="card-title">Flowers</a>
+                  </h3>
+                  <span class="card-tag">Environment</span>
+                </div>
+                <a href="Flowers.html" class="btn-icon">
+                  <img src="images/arrow-forward.svg" width="43" height="20" loading="lazy"
+                    alt="arrow-forward icon">
+                </a>
+              </div>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder has-before" style="--width: 3118; --height: 4677;">
+                  <img src="images/animal.jpg" width="3118" height="4677" loading="lazy" alt="Leaping Lizard"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="Animals.html" class="card-title">Animals</a>
+                  </h3>
+                  <span class="card-tag">Pets, Wildlife</span>
+                </div>
+                <a href="Animals.html" class="btn-icon">
+                  <img src="images/arrow-forward.svg" width="43" height="20" loading="lazy"
+                    alt="arrow-forward icon">
+                </a>
+              </div>
+            </li>
+            <li class="gallery-item" data-reveal>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder has-before" style="--width: 4000; --height: 6000;">
+                  <img src="images/special.jpg" width="4000" height="6000" loading="lazy"
+                    alt="Lettuce Entertain" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="Special.html" class="card-title">Special Occasions</a>
+                  </h3>
+                  <span class="card-tag">Anything...</span>
+                </div>
+                <a href="Special.html" class="btn-icon">
+                  <img src="images/arrow-forward.svg" width="43" height="20" loading="lazy"
+                    alt="arrow-forward icon">
+                </a>
+              </div>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="images/urban.jpg" width="450" height="625" loading="lazy" alt="Juan More Taco"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="Urban.html" class="card-title">Urban Style</a>
+                  </h3>
+                  <span class="card-tag">Architecture, Environment</span>
+                </div>
+                <a href="Urban.html" class="btn-icon">
+                  <img src="images/arrow-forward.svg" width="43" height="20" loading="lazy"
+                    alt="arrow-forward icon">
+                </a>
+              </div>
+            </li>
+            <li class="gallery-item" data-reveal>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder has-before" style="--width: 4000; --height: 6000;">
+                  <img src="images/landscape.jpg" width="4000" height="6000" loading="lazy" alt="Goldilox Bagels"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="Landscapes.html" class="card-title">Landscapes</a>
+                  </h3>
+                  <span class="card-tag">Environment</span>
+                </div>
+                <a href="Landscapes.html" class="btn-icon">
+                  <img src="images/arrow-forward.svg" width="43" height="20" loading="lazy"
+                    alt="arrow-forward icon">
+                </a>
+              </div>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="images/nature.jpg" width="450" height="625" loading="lazy" alt="Cookie Monstah"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="Nature.html" class="card-title">Nature</a>
+                  </h3>
+                  <span class="card-tag">Environment</span>
+                </div>
+                <a href="Nature.html" class="btn-icon">
+                  <img src="images/arrow-forward.svg" width="43" height="20" loading="lazy"
+                    alt="arrow-forward icon">
+                </a>
+              </div>
+            </li>
+            <li class="gallery-item" data-reveal>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder has-before" style="--width: 4000; --height: 6000;">
+                  <img src="images/buildings.jpg" width="4000" height="6000" loading="lazy"
+                    alt="Divine Pastabilities" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="Buildings.html" class="card-title">Buildings</a>
+                  </h3>
+                  <span class="card-tag">Architecture</span>
+                </div>
+                <a href="Buildings.html" class="btn-icon">
+                  <img src="images/arrow-forward.svg" width="43" height="20" loading="lazy"
+                    alt="arrow-forward icon">
+                </a>
+              </div>
+              <div class="gallery-card">
+                <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+                  <img src="images/structures.jpg" width="450" height="625" loading="lazy"
+                    alt="The Lockhart Bar" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h6">
+                    <a href="Structures.html" class="card-title">Structures</a>
+                  </h3>
+                  <span class="card-tag">Architecture</span>
+                </div>
+                <a href="Structures.html" class="btn-icon">
+                  <img src="images/arrow-forward.svg" width="43" height="20" loading="lazy"
+                    alt="arrow-forward icon">
+                </a>
+              </div>
+            </li>
+          </ul>
+          <a href="#about" class="scroll-down">
+            <img src="images/scroll-down.svg" width="40" height="66" loading="lazy" alt="mouse scroll">
+          </a>
+          <img src="images/gallery-shape.svg" width="220" height="78" loading="lazy" alt="" class="shape">
+        </div>
+      </section>
+      <section class="section category" aria-label="photography category" id="portfolio">
+        <div class="container">
+          <ul class="category-list">
+            <li class="category-item" data-reveal>
+              <a href="Landscapes.html" class="category-card">
+                <h3 class="h4 card-title">Landscape,</h3>
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="images/category-1.png" width="600" height="690" loading="lazy" alt="Landscape"
+                    class="img-cover">
+                </figure>
+              </a>
+            </li>
+            <li class="category-item" data-reveal>
+              <a href="Flowers.html" class="category-card">
+                <h3 class="h4 card-title">Flowers,</h3>
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="images/category-2.png" width="600" height="690" loading="lazy" alt="Model"
+                    class="img-cover">
+                </figure>
+              </a>
+            </li>
+            <li class="category-item" data-reveal>
+              <a href="Computer.html" class="category-card">
+                <h3 class="h4 card-title">Computer,</h3>
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="images/category-3.png" width="600" height="690" loading="lazy" alt="Street"
+                    class="img-cover">
+                </figure>
+              </a>
+            </li>
+            <li class="category-item" data-reveal>
+              <a href="Animals.html" class="category-card">
+                <h3 class="h4 card-title">Animals,</h3>
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="images/category-4.png" width="600" height="690" loading="lazy" alt="Product"
+                    class="img-cover">
+                </figure>
+              </a>
+            </li>
+            <li class="category-item" data-reveal>
+              <a href="Buildings.html" class="category-card">
+                <h3 class="h4 card-title">Buildings,</h3>
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="images/category-5.png" width="600" height="690" loading="lazy" alt="Fashion"
+                    class="img-cover">
+                </figure>
+              </a>
+            </li>
+            <li class="category-item" data-reveal>
+              <a href="Nature.html" class="category-card">
+                <h3 class="h4 card-title">Nature,</h3>
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="images/category-6.png" width="600" height="690" loading="lazy" alt="Film"
+                    class="img-cover">
+                </figure>
+              </a>
+            </li>
+            <li class="category-item" data-reveal>
+              <a href="Special.html" class="category-card">
+                <h3 class="h4 card-title">Special,</h3>
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="images/category-7.png" width="600" height="690" loading="lazy" alt="Architecture"
+                    class="img-cover">
+                </figure>
+              </a>
+            </li>
+            <li class="category-item" data-reveal>
+              <a href="Structures.html" class="category-card">
+                <h3 class="h4 card-title">Structures,</h3>
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="images/category-8.png" width="600" height="690" loading="lazy" alt="Event"
+                    class="img-cover">
+                </figure>
+              </a>
+            </li>
+            <li class="category-item" data-reveal>
+              <a href="Urban.html" class="category-card">
+                <h3 class="h4 card-title">Urban.</h3>
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="images/category-9.png" width="600" height="690" loading="lazy" alt="Wedding"
+                    class="img-cover">
+                </figure>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </article>
+  </main>
+  <footer class="footer">
+    <div class="footer-top section" id="contact">
+      <div class="container">
+        <a href="https://tdvorak.site" target="_blank" class="btn-icon" data-reveal>
+          <img src="images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon">
+        </a>
+        <h2 class="h2 section-title" data-reveal>
+          Visit my personal portfolio, to know more!
+        </h2>
+
+        <img src="images/footer-shape.svg" width="185" height="134" loading="lazy" alt="" class="shape">
+
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" width="80" height="80" loading="lazy" alt="Richard home">
+        </a>
+        <ul class="social-list">
+          <li>
+            <a href="https://linkedin.com/in/tomáš-dvořák-542bb7294" target="_blank" class="social-link">LinkedIn.</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/tdv0rak_photos" target="_blank" class="social-link">Instagram.</a>
+          </li>
+          <li>
+            <a href="https://ko-fi.com/tomasdvorak" target="_blank" class="social-link">SupportMe.</a>
+          </li>
+        </ul>
+        <p class="copyright">Copyright <strong>2024.</strong><br> All right reserved by <strong><a href="https://tdvorak.site">Tomáš Dvořák.</a></strong></p>
+      </div>
+    </div>
+  </footer>
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>0%</a>
+  <div class="cursor" data-cursor></div>
+  <script src="script.js"></script>
+</body>
+</html>

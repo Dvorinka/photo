@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tomáš Dvořák - Nature</title>
+  <meta name="title" content="Tomáš Dvořák - Photography">
+  <meta name="description" content="Photographer portfolio.">
+  <link rel="shortcut icon" href="logo.png" type="image">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="font/font.css">
+  <link rel="preload" as="image" href="images/loading.svg">
+  <link rel="preload" as="image" href="images/loading-circle.svg">
+  <script src="scroll.js"></script>
+</head>
+<body class="active" id="top">
+    <div class="loading" data-loading>
+      <img src="images/loading.svg" width="55" height="55" alt="loading" class="img">
+      <img src="images/loading-circle.svg" width="70" height="70" alt="" class="circle">
+    </div>
+    <header class="header" data-header>
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" width="40" height="40" alt="Tomáš Dvořák">
+        </a>
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <img src="images/menu.svg" width="17" height="17" alt="menu icon">
+        </button>
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img src="images/nav-logo.png" width="140" height="40" alt="Tomáš" class="img">
+            </a>
+            <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+              <span class="span one"></span>
+              <span class="span two"></span>
+            </button>
+          </div>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="https://tdvorak.site" target="_blank" class="navbar-link" data-nav-link>Contact me</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+      </header>
+    <main>
+      <section class="section gallery" id="gallery">
+        <figure class="card-banner img-holder has-before" style="--width: 2000; --height: 480; z-index: 0; position: relative;">
+          <img src="images/nature-banner.jpg" width="8000" height="6000" loading="lazy" alt="Flowers" class="img-cover" style="filter: brightness(0.7);" loading="lazy">
+          <strong><h1 class="h1 hero-title" style="color: white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1;">
+            Nature</h1></strong>
+        </figure>
+      </section>          
+      <section class="section portfolio" aria-labelledby="portfolio-label">
+        <div class="container">
+          <div class="portfolio-list">
+            <div class="wrapper">
+              <div class="portfolio-card" data-reveal>
+                <figure class="card-banner img-holder has-before" style="--width: 2000; --height: 1500;">
+                  <img src="images/Flowers/20230714_195423 (1).jpg" width="2000" height="1500" loading="lazy" alt="Shoe Promo"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h4">
+                    <a href="#" class="card-title">#</a>
+                  </h3>
+                  <p class="card-tag">#</p>
+                  <a href="#one" class="scroll-down" onclick="smoothScroll('#one', 1000)" style="text-align: center;">
+                    Next
+                    <img src="images/scroll-down.svg" width="20" height="33" loading="lazy" alt="mouse scroll" style="position: relative; margin-left: auto; margin-right: auto;">
+                  </a>                                                                               
+                </div>
+              </div>
+            </div>    
+          </div>
+        </div>
+      </section>
+      <section class="section portfolio" id="one" aria-labelledby="portfolio-label">
+        <div class="container">
+          <div class="portfolio-list">
+            <div class="wrapper">
+              <div class="portfolio-card">
+                <figure class="card-banner img-holder has-before" style="--width: 2000; --height: 1500;">
+                  <img src="images/Flowers/20230714_195437 (1).jpg" width="2000" height="1500" loading="lazy" alt="Shoe Promo"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h4">
+                    <a href="#" class="card-title">#</a>
+                  </h3>
+                  <p class="card-tag">#</p>
+                  <a href="#two" class="scroll-down" onclick="smoothScroll('#two', 1000)" style="text-align: center;">
+                    Next
+                    <img src="images/scroll-down.svg" width="20" height="33" loading="lazy" alt="mouse scroll" style="position: relative; margin-left: auto; margin-right: auto;">
+                  </a>  
+                </div>
+              </div>
+            </div>    
+          </div>
+        </div>
+      </section>
+      <section class="section portfolio" id="two" aria-labelledby="portfolio-label">
+        <div class="container">
+          <div class="portfolio-list">
+            <div class="wrapper">
+              <div class="portfolio-card">
+                <figure class="card-banner img-holder has-before" style="--width: 2000; --height: 1500;">
+                  <img src="images/Flowers/20230714_195510 (1).jpg" width="2000" height="1500" loading="lazy" alt="Shoe Promo"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h4">
+                    <a href="#" class="card-title">#</a>
+                  </h3>
+                  <p class="card-tag">#</p>
+                  <a href="#three" class="scroll-down" onclick="smoothScroll('#three', 1000)" style="text-align: center;">
+                    Next
+                    <img src="images/scroll-down.svg" width="20" height="33" loading="lazy" alt="mouse scroll" style="position: relative; margin-left: auto; margin-right: auto;">
+                  </a>  
+                </div>
+              </div>
+            </div>    
+          </div>
+        </div>
+      </section>
+      <section class="section portfolio" id="three" aria-labelledby="portfolio-label">
+        <div class="container">
+          <div class="portfolio-list">
+            <div class="wrapper">
+              <div class="portfolio-card">
+                <figure class="card-banner img-holder has-before" style="--width: 2000; --height: 1500;">
+                  <img src="images/Flowers/20230714_195812 (1).jpg" width="2000" height="1500" loading="lazy" alt="Shoe Promo"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h4">
+                    <a href="#" class="card-title">#</a>
+                  </h3>
+                  <p class="card-tag">#</p>
+                  <a href="#four" class="scroll-down" onclick="smoothScroll('#four', 1000)" style="text-align: center;">
+                    Next
+                    <img src="images/scroll-down.svg" width="20" height="33" loading="lazy" alt="mouse scroll" style="position: relative; margin-left: auto; margin-right: auto;">
+                  </a>  
+                </div>
+              </div>
+            </div>    
+          </div>
+        </div>
+      </section>
+      <section class="section portfolio" id="four" aria-labelledby="portfolio-label">
+        <div class="container">
+          <div class="portfolio-list">
+            <div class="wrapper">
+              <div class="portfolio-card">
+                <figure class="card-banner img-holder has-before" style="--width: 2000; --height: 1500;">
+                  <img src="images/Flowers/20230714_195851.jpg" width="2000" height="1500" loading="lazy" alt="Shoe Promo"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h4">
+                    <a href="#" class="card-title">#</a>
+                  </h3>
+                  <p class="card-tag">#</p>
+                  <a href="#five" class="scroll-down" onclick="smoothScroll('#five', 1000)" style="text-align: center;">
+                    Next
+                    <img src="images/scroll-down.svg" width="20" height="33" loading="lazy" alt="mouse scroll" style="position: relative; margin-left: auto; margin-right: auto;">
+                  </a>  
+                </div>
+              </div>
+            </div>    
+          </div>
+        </div>
+      </section>
+      <section class="section portfolio" id="five" aria-labelledby="portfolio-label">
+        <div class="container">
+          <div class="portfolio-list">
+            <div class="wrapper">
+              <div class="portfolio-card">
+                <figure class="card-banner img-holder has-before" style="--width: 2000; --height: 1500;">
+                  <img src="images/Flowers/20230714_195907.jpg" width="2000" height="1500" loading="lazy" alt="Shoe Promo"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h4">
+                    <a href="#" class="card-title">#</a>
+                  </h3>
+                  <p class="card-tag">#</p>
+                  <a href="#six" class="scroll-down" onclick="smoothScroll('#six', 1000)" style="text-align: center;">
+                    Next
+                    <img src="images/scroll-down.svg" width="20" height="33" loading="lazy" alt="mouse scroll" style="position: relative; margin-left: auto; margin-right: auto;">
+                  </a>  
+                </div>
+              </div>
+            </div>    
+          </div>
+        </div>
+      </section>
+      <section class="section portfolio" id="six" aria-labelledby="portfolio-label">
+        <div class="container">
+          <div class="portfolio-list">
+            <div class="wrapper">
+              <div class="portfolio-card">
+                <figure class="card-banner img-holder has-before" style="--width: 2000; --height: 1500;">
+                  <img src="images/Flowers/20230714_200019.jpg" width="2000" height="1500" loading="lazy" alt="Shoe Promo"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h4">
+                    <a href="#" class="card-title">#</a>
+                  </h3>
+                  <p class="card-tag">#</p>
+                  <a href="#seven" class="scroll-down" onclick="smoothScroll('#seven', 1000)" style="text-align: center;">
+                    Next
+                    <img src="images/scroll-down.svg" width="20" height="33" loading="lazy" alt="mouse scroll" style="position: relative; margin-left: auto; margin-right: auto;">
+                  </a>  
+                </div>
+              </div>
+            </div>    
+          </div>
+        </div>
+      </section>
+      <section class="section portfolio" id="seven" aria-labelledby="portfolio-label">
+        <div class="container">
+          <div class="portfolio-list">
+            <div class="wrapper">
+              <div class="portfolio-card">
+                <figure class="card-banner img-holder has-before" style="--width: 2000; --height: 1500;">
+                  <img src="images/Flowers/20230912_073725.jpg" width="2000" height="1500" loading="lazy" alt="Shoe Promo"
+                    class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h4">
+                    <a href="#" class="card-title">#</a>
+                  </h3>
+                  <p class="card-tag">#</p>
+                </div>
+              </div>
+            </div>    
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="cursor" data-cursor></div>
+    <script src="script.js"></script>
+</body>
+</html>
